@@ -2,6 +2,9 @@
 
 ## Members
 Cole Sturza
+
 Cooper Simpson
+
 Tashi Wischmeyer
+
 Jake Schroeder
