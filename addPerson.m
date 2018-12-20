@@ -1,4 +1,4 @@
-function res = addPerson(fimage, image_type, name, fnames, fvec)
+function res = addPerson(fimage, image_type)%, name, fnames, fvec)
     % Read given image and convert to gray scale
     I = rgb2gray(imread(fimage, image_type));
     % Resize image so that it is a N by N matrix (N = 100)
@@ -10,8 +10,9 @@ function res = addPerson(fimage, image_type, name, fnames, fvec)
     % column vector we need to store it somewhere.
     % We will store the processed image in one csv file and the
     % respective name in another csv file.
-    fid = fopen(fnames, 'a');
-    fprintf(fid, '%s\n', name);
-    fclose(fid);
-    dlmwrite(fvec, Ivec', '-append');
+    
+%     fid = fopen(fnames, 'a');
+%     fprintf(fid, '%s\n', name);
+%     fclose(fid);
+%     dlmwrite(fvec, Ivec', '-append');
 end
