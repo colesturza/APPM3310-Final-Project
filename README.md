@@ -1,10 +1,9 @@
 # APPM3310-Group-Project
 
 ## Members
-Cole Sturza
+Cole Sturza \\
+Cooper Simpson \\
+Tashi Wischmeyer \\
+Jake Schroeder \\
 
-Cooper Simpson
-
-Tashi Wischmeyer
-
-Jake Schroeder
+A python version of the code is included in this repository. It doesn't work nearly as well as the Matlab version because python is not as percise.
