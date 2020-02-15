@@ -2,11 +2,6 @@ import numpy as np
 import os
 import cv2
 
-# The python version of the code doesn't work well at all.
-# I'm fairly confident this is due to errors from rounding.
-# Computers can only store so many digits and python is far less
-# precise than MATLAB.
-
 N = 100
 
 def separate(matrix_in):
